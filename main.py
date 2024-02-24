@@ -38,7 +38,7 @@ async def healthchecker(db: Session = Depends(get_db)):
         raise HTTPException(status_code=502, detail="Error connecting to the database")
 
 
-@app.post("/api/seek")
+@app.post("/seed")
 async def seed_fake_data(number_contacts: int = 10):
     seed_data(number_contacts)
     return {"message": f"You have {number_contacts} new fake Contacts"}
