@@ -21,6 +21,6 @@ WEB_HW 11
    
       HTTP метод: POST
 
-      URL: /api/seed (Seed Fake Data)
+      URL: /seed (Seed Fake Data)
    
 ![image](https://github.com/KyryloChalov/WEB_HW11/assets/140982410/40d989a2-cfc5-4ecc-8369-5a6d94fa87dc)
