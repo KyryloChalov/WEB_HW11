@@ -5,9 +5,11 @@ WEB_HW 11
 
 2. poetry update package
 
-3. uvicorn main:app --host localhost --port 8000 --reload
+3. poetry shell
 
-4. після першого запуску треба виконати
+4. uvicorn main:app --host localhost --port 8000 --reload
+
+6. після першого запуску треба виконати
 
            HTTP метод: DELETE
            URL: /api/reset_base (Reset Database)
